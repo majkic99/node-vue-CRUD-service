@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,29 +23,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="087e2024-5363-4aff-8146-d277d6e84851" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/frontfudbal/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontfudbal/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontfudbal/babel.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontfudbal/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontfudbal/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontfudbal/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontfudbal/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontfudbal/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontfudbal/src/assets/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontfudbal/src/components/HelloWorld.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontfudbal/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontfudbal/src/router/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontfudbal/src/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontfudbal/src/views/About.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontfudbal/src/views/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontfudbal/src/components/AddFudbaler.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontfudbal/src/components/AddTim.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontfudbal/src/components/TabelaFudbalera.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontfudbal/src/components/TabelaTimova.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontfudbal/src/views/EditFudbaler.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontfudbal/src/views/EditTim.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontfudbal/src/views/Fudbaleri.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontfudbal/src/views/Timovi.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/node/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontfudbal/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontfudbal/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontfudbal/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontfudbal/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontfudbal/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontfudbal/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontfudbal/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontfudbal/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontfudbal/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontfudbal/src/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontfudbal/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontfudbal/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontfudbal/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontfudbal/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontfudbal/src/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontfudbal/src/views/About.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontfudbal/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontfudbal/src/views/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node/dbapi/dbapi.js" beforeDir="false" afterPath="$PROJECT_DIR$/node/dbapi/dbapi.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -71,6 +84,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Majkic\Documents\GitHub\skriptprojekat\fantazifudbal\frontfudbal\src\views" />
+      <recent name="C:\Users\Majkic\Documents\GitHub\skriptprojekat\fantazifudbal\frontfudbal\src\components" />
       <recent name="C:\Users\Majkic\Documents\GitHub\skriptprojekat\fantazifudbal\node\dbapi" />
       <recent name="C:\Users\Majkic\Documents\GitHub\skriptprojekat\fantazifudbal\node" />
     </key>
@@ -85,6 +100,9 @@
       <updated>1605301983425</updated>
       <workItem from="1605301984488" duration="477000" />
       <workItem from="1605383230474" duration="2045000" />
+      <workItem from="1605394584787" duration="4564000" />
+      <workItem from="1605399718439" duration="5731000" />
+      <workItem from="1605438840730" duration="17628000" />
     </task>
     <servers />
   </component>
@@ -107,9 +125,21 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605456492750">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605456492750" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1605383248007">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605383248007" />
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605396740061">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605396740061" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1605452305472">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605452305472" />
   </component>
 </project>

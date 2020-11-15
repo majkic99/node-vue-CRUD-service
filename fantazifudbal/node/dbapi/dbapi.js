@@ -55,7 +55,7 @@ route.post('/fudbaleri', jsonParser, (req, res)=> {
     if (error)
         res.status(400).send(error.details[0].message);
     else{
-        let query = 'insert into fudbaleri (ime, prezime, osvojeni_poeni, odigrani_minuti) values (?, ?, ?, ?)';
+        let query = 'insert into fudbaleri (ime, prezime, osvojeni_poeni, minuti_odigrani) values (?, ?, ?, ?)';
         let formatted = mysql.format(query, [req.body.ime, req.body.prezime, req.body.osvojeni_poeni, req.body.minuti_odigrani]);
 
         pool.query(formatted, (err, response) => {
@@ -108,8 +108,8 @@ route.post('/timovi', jsonParser, (req, res)=> {
     }
 });
 
-route.delete('/fudbaleri/:id', (req, res) => {
-    let query = 'select * from poruke where idFudbaleri=?';
+route.post('/fudbaleri/del/:id', (req, res) => {
+    let query = 'select * from fudbaleri where idFudbaleri=?';
     let formatted = mysql.format(query, [req.params.id]);
 
     pool.query(formatted, (err, rows) => {
@@ -131,7 +131,7 @@ route.delete('/fudbaleri/:id', (req, res) => {
     });
 });
 
-route.delete('/timovi/:id', (req, res) => {
+route.post('/timovi/del/:id', (req, res) => {
     let query = 'select * from timovi where idTimovi=?';
     let formatted = mysql.format(query, [req.params.id]);
 
@@ -182,14 +182,15 @@ route.get('/fudbaleri/:id', (req, res) => {
 
 });
 
-route.put('fudbaleri/:id', jsonParser ,(req, res)=>{
-    let { error } = fudbaleriSema.validate(req.body);
+route.post('/fudbaleri/:id', jsonParser ,(req, res)=>{
 
+    let { error } = fudbaleriSema.validate(req.body);
     if (error)
         res.status(400).send(error.details[0].message);
     else{
-        let query = 'update fudbaleri set ime=?, prezime=?, osvojeni_poeni=?, odigrani_minuti=? where idFudbaleri = ?';
+        let query = 'update fudbaleri set ime=?, prezime=?, osvojeni_poeni=?, minuti_odigrani=? where idFudbaleri = ?';
         let formatted = mysql.format(query, [req.body.ime, req.body.prezime, req.body.osvojeni_poeni, req.body.minuti_odigrani, req.params.id]);
+
 
         pool.query(formatted, (err, response) => {
             if (err)
@@ -210,7 +211,8 @@ route.put('fudbaleri/:id', jsonParser ,(req, res)=>{
     }
 });
 
-route.put('/timovi/:id', jsonParser ,(req, res)=>{
+route.post('/timovi/:id', jsonParser ,(req, res)=>{
+
     let { error } = timoviSema.validate(req.body);
 
     if (error)
@@ -218,7 +220,8 @@ route.put('/timovi/:id', jsonParser ,(req, res)=>{
     else{
         let query = 'update timovi set ime_tima=?, osvojeni_poeni=? where idTimovi = ?';
         let formatted = mysql.format(query, [req.body.ime_tima, req.body.osvojeni_poeni, req.params.id]);
-        console.log(formatted);
+
+
         pool.query(formatted, (err, response) => {
             if (err)
                 res.status(500).send(err.sqlMessage);
