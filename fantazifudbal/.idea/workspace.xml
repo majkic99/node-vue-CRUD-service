@@ -23,27 +23,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="087e2024-5363-4aff-8146-d277d6e84851" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/frontfudbal/src/components/AddFudbaler.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontfudbal/src/components/AddTim.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontfudbal/src/components/TabelaFudbalera.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontfudbal/src/components/TabelaTimova.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontfudbal/src/views/EditFudbaler.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontfudbal/src/views/EditTim.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontfudbal/src/views/Fudbaleri.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontfudbal/src/views/Timovi.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontfudbal/src/views/Fudbaler.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontfudbal/src/views/Tim.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/dist/css/app.5c9713c3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/dist/css/chunk-vendors.2d065fb2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/dist/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/dist/js/app.2d4e47e5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/dist/js/app.2d4e47e5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/dist/js/chunk-vendors.d6c0f36c.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/dist/js/chunk-vendors.d6c0f36c.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontfudbal/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontfudbal/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontfudbal/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontfudbal/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontfudbal/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontfudbal/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontfudbal/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontfudbal/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontfudbal/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontfudbal/src/assets/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontfudbal/src/components/HelloWorld.vue" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/frontfudbal/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontfudbal/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontfudbal/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontfudbal/src/store/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontfudbal/src/views/About.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontfudbal/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontfudbal/src/views/Home.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node/dbapi/dbapi.js" beforeDir="false" afterPath="$PROJECT_DIR$/node/dbapi/dbapi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontfudbal/src/views/EditFudbaler.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontfudbal/src/views/EditFudbaler.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontfudbal/src/views/EditTim.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontfudbal/src/views/EditTim.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontfudbal/src/views/Fudbaleri.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontfudbal/src/views/Fudbaleri.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontfudbal/src/views/Timovi.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontfudbal/src/views/Timovi.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +66,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/vezbe6" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/node" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -83,6 +77,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Majkic\Documents\GitHub\skriptprojekat\fantazifudbal\node" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Majkic\Documents\GitHub\skriptprojekat\fantazifudbal\frontfudbal\src\views" />
       <recent name="C:\Users\Majkic\Documents\GitHub\skriptprojekat\fantazifudbal\frontfudbal\src\components" />
@@ -103,6 +100,7 @@
       <workItem from="1605394584787" duration="4564000" />
       <workItem from="1605399718439" duration="5731000" />
       <workItem from="1605438840730" duration="17628000" />
+      <workItem from="1605457787965" duration="2250000" />
     </task>
     <servers />
   </component>

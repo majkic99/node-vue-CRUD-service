@@ -6,7 +6,7 @@
       <b-col sm="1" offset="5">
         <b-input v-model="idTimovi2" class="mb-2 mr-sm-2 mb-sm-0"  placeholder="ID tima"></b-input>
       </b-col>
-      <b-button variant="primary" class="mb-2 mr-sm-2 mb-sm-0" @click="deleteTeam">Vise detalja</b-button>
+      <b-button variant="primary" class="mb-2 mr-sm-2 mb-sm-0" @click="openTeam">Vise detalja</b-button>
     </b-row>
     <div>
       <b-row> <b-col>
@@ -39,6 +39,7 @@
 import AddTim from '@/components/AddTim';
 import TabelaTimova from "@/components/TabelaTimova";
 import { mapActions } from 'vuex';
+import router from "@/router";
 const  Joi = require('joi');
 const idSema = Joi.object().keys({
   id: Joi.number().required()
@@ -67,8 +68,15 @@ export default {
         this.deleteTim(parseInt(this.idTimovi));
       }
       this.idTimovi = '';
+    },
+    openTeam : function(){
+      const { error, value } = idSema.validate({id: this.idTimovi2});
+      if(error){
+        alert(error);
+      }else {
+      router.push({path: `/timovi/${this.idTimovi2}`})
+        }
     }
-
 
 
   },

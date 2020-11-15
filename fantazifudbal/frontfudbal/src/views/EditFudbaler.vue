@@ -32,6 +32,8 @@
 </template>
 
 <script>
+import router from "@/router";
+
 const  Joi = require('joi');
 
 
@@ -69,7 +71,7 @@ export default  {
       }else {
 
             this.changeFudbaler({idFudbaleri: parseInt(this.idFudbaleri), msg: msg});
-
+          router.push({path: `/fudbaleri`})
           }
 
 

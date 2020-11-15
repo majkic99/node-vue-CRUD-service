@@ -28,6 +28,7 @@
 <script>
 import {mapState} from "vuex";
 import { mapActions } from 'vuex';
+import router from "@/router";
 const  Joi = require('joi');
 const timoviSema = Joi.object().keys({
   ime_tima : Joi.string().min(3).max(24).required(),
@@ -59,7 +60,7 @@ export default  {
       }else{
 
         this.changeTim({idTimovi: parseInt(this.idTimovi), msg: msg});
-
+        router.push({path: `/timovi`})
         }
 
 

@@ -9,7 +9,7 @@
     <b-col sm="1" offset="5">
       <b-input v-model="idFudbaleri2" class="mb-2 mr-sm-2 mb-sm-0"  placeholder="ID fudbalera"></b-input>
     </b-col>
-    <b-button variant="primary" class="mb-2 mr-sm-2 mb-sm-0" @click="deleteTeam">Vise detalja</b-button>
+    <b-button variant="primary" class="mb-2 mr-sm-2 mb-sm-0" @click="openFudbaler">Vise detalja</b-button>
   </b-row>
     <div>
       <b-row> <b-col>
@@ -44,6 +44,7 @@
 import TabelaFudbalera from "@/components/TabelaFudbalera";
 import AddFudbaler from "@/components/AddFudbaler";
 import { mapActions } from 'vuex';
+import router from "@/router";
 const  Joi = require('joi');
 const idSema = Joi.object().keys({
   id: Joi.number().required()
@@ -72,6 +73,15 @@ name: "Fudbaleri",
       this.deleteFudbaler(parseInt(this.idFudbaleri));
         }
       this.idFudbaleri = '';
+    },
+
+    openFudbaler : function(){
+      const { error, value } = idSema.validate({id: this.idFudbaleri2});
+      if(error){
+        alert(error);
+      }else {
+        router.push({path: `/fudbaleri/${this.idFudbaleri2}`})
+      }
     }
   },
   mounted: function() {
